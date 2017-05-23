@@ -16,6 +16,10 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+p {
+  line-height: 1.5;
+}
+
 .heading-1 {
   font-size: 2rem;
 }
@@ -68,8 +72,6 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 0.5rem;
 	background: none;
 	color: inherit;
-	vertical-align: middle;
-	z-index: 1;
   transition: all 500ms 0s ease;
 }
 
