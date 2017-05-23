@@ -1,0 +1,100 @@
+body {
+  background: #000;
+  color: #ddd;
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 200;
+}
+
+a:link, a:visited {
+  color: #aaa;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 200;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.heading-1 {
+  font-size: 2rem;
+}
+
+.heading-2 {
+  font-size: 1.5rem;
+}
+
+.small {
+  font-size: 80%;
+}
+
+.app {
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+  align-items: stretch;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.app-head, .app-foot {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 0;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app-body {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+  align-items: center;
+}
+
+.container {
+  display: block;
+  margin: auto;
+}
+
+.centered {
+  text-align: center;
+}
+
+.button {
+	display: inline-block;
+	padding: 1rem 2rem;
+	border: 1px #ddd solid;
+  border-radius: 0.5rem;
+	background: none;
+	color: inherit;
+	vertical-align: middle;
+	z-index: 1;
+  transition: all 500ms 0s ease;
+}
+
+.button:disabled {
+  opacity: 0.0;
+}
+
+.button:focus {
+	outline: none;
+}
+
+.button:active {
+	background: #ddd;
+	color: #000;
+}
+
+.button > span {
+	vertical-align: middle;
+}
+
+#wireframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
